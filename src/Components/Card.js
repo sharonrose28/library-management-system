@@ -1,5 +1,4 @@
 import React from "react";
-//console.log(book)
 const Card = ({book}) => {
 
 
@@ -9,11 +8,8 @@ const Card = ({book}) => {
 
             {
                 book.map((item) => {
-                    let thumbnail=item.volumeInfo.imageLinks && item.volumeInfo.imageLinks.smallThumbnail;
-                    let title=item 
+                    let thumbnail=item.volumeInfo.imageLinks && item.volumeInfo.imageLinks.smallThumbnail; 
                     console.log(thumbnail)
-
-
                     if (thumbnail!==undefined)
                     {
                         return (
