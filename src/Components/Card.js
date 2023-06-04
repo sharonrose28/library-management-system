@@ -2,9 +2,9 @@ import React from "react";
 //console.log(book)
 const Card = ({book}) => {
 
-    //if (!book || !Array.isArray(book) || book.length===0) {
-     //   return <div>No book found</div>; // or return a fallback component
-     // }
+   // if (!book || !Array.isArray(book) || book.length===0) {
+     //   return null; // or return a fallback component
+   // }
 
     console.log(book)
     return (
