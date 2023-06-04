@@ -3,8 +3,8 @@ import React from "react";
 const Card = ({book}) => {
 
     //if (!book || !Array.isArray(book) || book.length===0) {
-      //  return <div>No book found</div>; // or return a fallback component
-      ///}
+     //   return <div>No book found</div>; // or return a fallback component
+     // }
 
     console.log(book)
     return (
@@ -15,6 +15,7 @@ const Card = ({book}) => {
                     let thumbnail=item.volumeInfo.imageLinks && item.volumeInfo.imageLinks.smallThumbnail;
                     let title=item 
                     console.log(thumbnail)
+
 
                     if (thumbnail!==undefined)
                     {
