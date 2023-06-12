@@ -10,14 +10,14 @@ const Main=()=>{
     const searchBook=(evt)=>{
         if(evt.key==="Enter")
         {
-            console.log("hello");
+           
             axios.get('https://www.googleapis.com/books/v1/volumes?q='+search+'&key=AIzaSyDtO4YggPjPQLn_OAiwQ7PDDS78AULBpsQ'+'&maxResults=40')
             .then(res=>setData(res.data.items))
             .catch(err=>console.log(err))
         }
     }
     return(
-        <>
+        <>  
 
 
         <div className="header">
@@ -44,6 +44,7 @@ const Main=()=>{
                 <h4>Discover the latest Books Here</h4>
 
             </div>
+            
         </div>
 
         <div className="container">
