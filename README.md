@@ -1,7 +1,5 @@
 # Book Search Web App - User Guide
 
-![Book Search Web App](link_to_image)
-
 ## Introduction
 
 Welcome to the Book Search Web App, a powerful tool for discovering your next favorite book! This web application is built using ReactJS and leverages the Google Books API to provide you with an extensive library of books at your fingertips. Whether you are a bookworm or just someone looking for a good read, this app has you covered.
