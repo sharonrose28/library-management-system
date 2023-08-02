@@ -23,7 +23,7 @@ const Main=()=>{
         <div className="header">
             <div className="row1">
                 <h1>
-                    Library Management System
+                    Book Searching Web App
                 </h1>
 
             </div>
